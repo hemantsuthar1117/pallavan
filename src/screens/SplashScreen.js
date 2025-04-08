@@ -36,7 +36,7 @@ const SplashScreen = ({ navigation }) => {
     }, 2500);
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [fadeAnim, scaleAnim, navigation]);
 
   return (
     <View style={styles.container}>
